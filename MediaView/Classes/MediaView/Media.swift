@@ -7,6 +7,7 @@
 
 import Foundation
 
+@objcMembers
 class Media {
     
     /// URL endpoint for image

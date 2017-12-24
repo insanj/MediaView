@@ -9,6 +9,7 @@ import Foundation
 import AVFoundation
 
 /// UIImageView subclass capable of displaying images, videos, audio and gifs
+@objcMembers
 public class MediaView: UIImageView {
     
     public enum SwipeMode {
