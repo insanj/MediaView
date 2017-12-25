@@ -8,7 +8,7 @@
 import Foundation
 
 @objcMembers
-class Media {
+class Media: NSObject {
     
     /// URL endpoint for image
     var imageURL: String?

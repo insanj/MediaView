@@ -13,7 +13,6 @@ protocol LabelDelegate: class {
     func didTouchUpInside(label: Label)
 }
 
-@objcMembers
 class Label: UILabel {
     
     enum Kind {
