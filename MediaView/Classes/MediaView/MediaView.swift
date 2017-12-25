@@ -12,7 +12,8 @@ import AVFoundation
 @objcMembers
 public class MediaView: UIImageView {
     
-    public enum SwipeMode {
+    @objc
+    public enum SwipeMode: NSInteger {
         case none
         case dismiss
         case minimize
