@@ -15,6 +15,9 @@ public extension Notification.Name {
     public static let mediaViewDidRotateNotification = Notification.Name(rawValue: "mediaViewDidRotateNotification")
 }
 
+public let kMediaViewWillRotateNotificationName: String = Notification.Name.mediaViewWillRotateNotification.rawValue
+public let kMediaViewDidRotateNotificationName: String = Notification.Name.mediaViewDidRotateNotification.rawValue
+
 public extension Notification {
     
     public var value: Any? {
